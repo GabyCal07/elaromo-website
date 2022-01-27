@@ -1,0 +1,47 @@
+.login-container{
+    margin-top: 15%;
+}
+
+.login-form{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 2% 5%;    
+}
+
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;    
+}
+
+.login-form .btnSubmit{
+    background-color: #d4e9bb;
+}
+
+label {
+    margin-top: 15px;
+}
+input{
+    margin: 10px 0px;
+}
+textarea{
+    margin: 10px 0px;
+}
+
+textarea:focus, input:focus, input[type]:focus, textarea[type]:focus {
+    border-color: #d4e9bb;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px hsl(87, 36%, 60%);    
+    outline: 0 none;
+}
+textarea:hover, input:hover, input[type]:hover, textarea[type]:hover {
+    border-color: #d4e9bb;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px hsl(87, 36%, 60%);    
+    outline: 0 none;
+}
